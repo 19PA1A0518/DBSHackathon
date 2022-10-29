@@ -29,6 +29,20 @@ INSERT INTO flight
 VALUES (1,2,100,'Spice-jet');
 
 
+INSERT INTO flight_trips
+VALUES (1,'Delhi','Chennai','13-09-2022 09:45:00','13-09-2022 16:00:00',100,1);
+INSERT INTO flight_trips
+VALUES (1,'Hyderabad','Vijayawada','09-10-2022 01:30:00','09-09-2022 06:00:00',100,2);
+INSERT INTO flight_trips
+VALUES (1,'Delhi','Amritsar','16-09-2022 10:45:00','10-09-2022 16:00:00',100,3);
+INSERT INTO flight_trips
+VALUES (2,'mumbai','Amritsar','16-09-2022 10:45:00','10-09-2022 16:00:00',100,1);
+INSERT INTO flight_trips
+VALUES (1,'pune','Bangalore','16-09-2022 10:45:00','10-09-2022 16:00:00',100,4);
+
+
+
+
 
 
 select flight_name from flight;  --for flightnames
